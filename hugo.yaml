@@ -8,3 +8,10 @@ params:
      disableHLJS: true 
      favicon: assets/favicon.ico
      apple_touch_icon: assets/apple-touch-icon.png 
+
+menu:
+  main:
+    - identifier: aboutme
+      name: About me
+      url: https://elhalili.github.io/aelhalili-portfolio/
+      weight: 10
