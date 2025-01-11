@@ -1,0 +1,10 @@
+baseURL: ""
+languageCode: en-us
+title: Amine's Blog
+theme: PaperMod
+
+params:
+  assets: 
+     disableHLJS: true 
+     favicon: assets/favicon.ico
+     apple_touch_icon: assets/apple-touch-icon.png 
