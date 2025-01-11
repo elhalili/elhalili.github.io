@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Amine&#39;s Blog</title>
-    <link>https://elhalili.github.io/</link>
-    <description>Recent content on Amine&#39;s Blog</description>
+    <title>Posts on Amine&#39;s Blog</title>
+    <link>https://elhalili.github.io/posts/</link>
+    <description>Recent content in Posts on Amine&#39;s Blog</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Jan 2025 17:08:08 +0100</lastBuildDate>
-    <atom:link href="https://elhalili.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://elhalili.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
       <link>https://elhalili.github.io/posts/first/</link>
