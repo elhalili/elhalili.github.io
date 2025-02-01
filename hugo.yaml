@@ -2,12 +2,9 @@ baseURL: "https://elhalili.github.io"
 languageCode: en-us
 title: Amine's Blog
 theme: PaperMod
+paginate: 5
+enableEmoji: true
 
-params:
-  assets: 
-     disableHLJS: true 
-     favicon: assets/favicon.ico
-     apple_touch_icon: assets/apple-touch-icon.png 
 
 menu:
   main:
@@ -15,3 +12,46 @@ menu:
       name: About me
       url: https://elhalili.github.io/aelhalili-portfolio/
       weight: 10
+
+
+params:
+  ShowReadingTime: true
+  author: Amine EL HALILI
+  defaultTheme: auto
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  assets: 
+     disableHLJS: true 
+     favicon: assets/favicon.ico
+     apple_touch_icon: assets/apple-touch-icon.png 
+
+  homeInfoParams:
+    Title: "👋 Hello There and Welcome!"
+    Content: >      
+      - This blog is about topics I enjoy, mainly related to computer science, along with my experiences and insights. I write simply because I love it, driven by my passion for computer science, hoping others may find it useful too.
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/elhalili"
+    - name: LinkedIn
+      title: Contact me
+      url: "https://www.linkedin.com/in/amine-el-halili/"
+    - name: email
+      title: Contact me
+      url: "mailto:amine.elhalili1@gmail.com"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
